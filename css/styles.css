@@ -18,95 +18,60 @@ letter-spacing: 1rem;
   color: #EEE;
 }
 
-/* #b1,#b2 {
-        margin-top: 280px;
-} */
-
-
-#logo{
-  color: darkblue;
+.logo-hov{
+  color: #0F4C81;
   font-size: 3rem;
   font-family: 'ubuntu';
 }
-#logo:hover{
-  color:white;
+
+.logo-hov:hover{
+    color: #fff;
+
 }
-
-
 .container-fluid{
-
-    padding: 3% 15%;
+    padding: 3% 5%;
 }
 
-h1 {
-
+h1,h2 {
     font-family: 'Montserrat';
     font-size: 3rem;
     line-height: 1.5;
 }
-h2{
-  font-family: 'Montserrat';
-  font-size: 3rem;
-  line-height: 1.5;
 
+h3,h5,p,a,em {
+  font-family: 'Montserrat-light';
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #BE79DF;
+  text-align:center;
 }
 /* navigation bar */
 
-h3 {
-  font-family: 'Montserrat-light';
-  font-size: 2rem;
-  line-height: 1.5;
-  color: #BE79DF
-}
-h5 {
-  font-family: 'Montserrat-light';
-  font-size: 2rem;
-  line-height: 1.5;
-  text-align:center;
-
+.nav-link {
+    padding: 20px;
 }
 
-p{
-  font-family: 'Montserrat-light';
-
-  font-size: 1.5rem;
-  line-height: 1.5;
-  color: #204051;
+p{  color: #204051;
 }
 
 .P2-text {
-
   color: #204051;
 }
 
-em{align-self: flex-end;
-
-}
 #top-nav{
   background-color: #efefef;
   padding: 12px;
 }
 
-
-.nav-link {
-
-    font-family: 'Montserrat-light';
-    font-size: 1.2rem;
-    line-height: 1.5;
-
-}
-
 /* Download button */
 
 .download-button {
-
     margin: 280px 3% 2% 0%;
 }
 
 /* Title image */
 
 .title-image{
-
         height:400px;
         width:300px;
 }
@@ -118,6 +83,7 @@ em{align-self: flex-end;
 }
 
 .hi {
+  margin-left: 300px;
 }
 
 #features {
@@ -130,15 +96,12 @@ em{align-self: flex-end;
     padding: 10% 15%;
 }
 
-
 .fas{
-
     font-size: 2rem;
     color: darkmagenta;
 }
 
 .fas:hover {
-
     color: crimson;
 }
 
@@ -159,29 +122,43 @@ margin: 0px 0px 0px 0px;
 }
 
 #carouselExampleSlidesOnly {
-
     padding:  15% 20%;
 }
 
 #press{
   background-color:#204051;
   padding: 3%;
+}
 
+.sub-msg {
+  font-family: 'Montserrat-light';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.card-header {
+  font-family: 'Montserrat-light';
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #204051;
+}
+
+.card-title{
+  font-family: 'Montserrat-light';
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #204051;
 }
 
 .testimonial-image{
-
       width: 20%;
       height: 20%;
 }
-
-
 
 .press-img{
 
   width: 15%;
   margin: 20px 20px 50px;
-
 }
 
 .d-block{
@@ -189,12 +166,11 @@ margin: 0px 0px 0px 0px;
   height: 500px;
 }
 
-
 .card-body{
   text-align:center;
   padding-bottom: 10%;
-
 }
+
 .card-color
   {
     color: #235952;
@@ -205,8 +181,33 @@ margin: 0px 0px 0px 0px;
 }
 #download{
   margin: auto;
-
 }
+
 .download12 {
   padding: 10%;
+}
+
+.P2-text {
+  font-family: 'Montserrat-light';
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #204051;
+}
+
+#sign{
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+    #dog{
+      font-size: 2rem;
+    }}
+/* Footer */
+
+#footer{
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
 }
